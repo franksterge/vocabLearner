@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+
+body {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 14pt;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+}
+
+main, #vocab-area {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vocab-area {
+    position: relative;
+}
+
+.wordcontainer {
+    display: flex;
+    justify-content: flex-start;
+/*    border: 2px solid black;
+*/
+}
+
+.wordcontainer, .word, .def, .data {
+    border: 2px solid black;
+}
+
+.word, .def {
+    padding: 2%;
+    text-align: left;
+}
+
+
+.correct {
+    background-color: grey;
+}
+
+.hidden {
+    display: none;
+}

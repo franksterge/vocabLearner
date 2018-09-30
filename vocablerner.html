@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Frank's Vocab Learner</title>
+        <link href="vocablearner.css" type="text/css" rel="stylesheet" />
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <script src="vocablearner.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Frank's Vocab Learner</h1>
+            <h2 id="list-no"></h2>
+        </header>
+
+        <main>
+            <div id="listID">
+                List: <input type="text" name="enter-listno" id="list">
+                <button id="submit-listno">Submit</button>
+            </div>
+            <div id="vocab-area">
+            </div>
+            <div id="controls">
+                <p>Press "Add Row/Column" to add a row/column of record/vocab;</p>
+                <p>press "Remove Row" to remove the last line of vocab;</p> 
+                <p>press "Edit Vocab" to edit the last line of vocab in the list;</p>
+                <p>press "Hide/Show Definition" to hide/show the definition.</p>
+                <button id="add-row">Add Row</button>
+                <button id="add-col">Add Column</button>
+                <button id="remove-row">Remove Row</button>
+                <button id="edit-last">Edit Definition</button>
+                <button id="hide-def">Hide Definition</buttion>
+            </div>
+            <div>
+                <p>
+                    Type vocabs and definitions to add a row to the list.
+                </p>
+                Vocab: <input type="text" name="vocab-box" id="new-vocab">
+                Definition: <input type="text" name="def" id="new-def">
+            </div>
+           <div id="stats"></div>    
+       </body>
+</html>
